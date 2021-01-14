@@ -7,13 +7,13 @@ Parameters:
     Type: String
   GitHubOwner:
     Type: String
-    Default: coffeester # change this with your ownername
+    Default: MT-501 # change this with your ownername
   GitHubRepo:
     Type: String
     Default: terraform-based-pipeline
   GitHubToken:
     Type: String
-    Default: xxxxxxxxx # use your auth token
+    Default:  879dcbfc9f6b5c3c36957c79b09643e0a5f56e8a # use your auth token
 Resources:
   SampleBuildProject:
     Properties:
